@@ -1,0 +1,23 @@
+name: Module Installer
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:  # Memungkinkan Anda menjalankan workflow secara manual
+
+jobs:
+  download-and-update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'  # Sesuaikan dengan versi Node.js yang Anda gunakan
+
+      - name: Install dependencies
+        run: npm install
