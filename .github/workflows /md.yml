@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch:  # Memungkinkan Anda menjalankan workflow secara manual
+  workflow_dispatch:
 
 jobs:
   download-and-update:
