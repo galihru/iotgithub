@@ -2,7 +2,9 @@
 
 ## About
 
-This GitHub Action generates an IoT dashboard with a chart using JSON data.
+This GitHub Action (GA) automates the creation of a fully functional IoT dashboard that visualizes data using interactive charts. The GA is integrated with the Arduino IDE platform. You can integrate this GA by using the `githubiot` module in the `.ino` code. Then, upload the code to one of your microcontrollers (ESP32 or ESP8266).
+
+---
 
 * [Usage](#usage)
 * [Inputs](#inputs)
