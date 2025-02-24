@@ -2,7 +2,7 @@ name: 'Generate IoT Dashboard'
 description: 'A GitHub Action to generate an IoT dashboard with a chart using JSON data form Arduino IDE'
 author: 'GALIH RIDHO UTOMO'
 branding:
-  icon: 'bar-chart-2'
+  icon: 'globe'
   color: 'green'
 inputs:
   json_filename:
