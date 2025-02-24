@@ -1,0 +1,11 @@
+{
+  "name": "iotgithub",
+  "version": "1.0.0",
+  "author": "GALIH RIDHO UTOMO",
+  "description": "IoT GitHub Integred Arduino IDE Platform",
+  "main": "src/index.js",
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.0"
+  }
+}
