@@ -26,15 +26,15 @@ This GitHub Action (GA) automates the creation of a fully functional IoT dashboa
     site_title: 'My IoT Dashboard'
     chart_title: 'IoT Data Chart'
 - name: Commit and push changes
-    run: |
-      git config --global user.name "GitHub Actions"
-      git config --global user.email "actions@github.com"
-      git add .
-      if git commit -m "Auto-generated IoT dashboard files"; then
-        git push
-      else
-        echo "No changes to commit."
-      fi
+  run: |
+    git config --global user.name "GitHub Actions"
+    git config --global user.email "actions@github.com"
+    git add .
+    if git commit -m "Auto-generated IoT dashboard files"; then
+      git push
+    else
+      echo "No changes to commit."
+    fi
 ```
 
 2. Go to your repository settings, then select the Action menu then select the General menu after that select Read and write permissions
