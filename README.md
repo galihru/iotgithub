@@ -6,7 +6,7 @@ This GitHub Action generates an IoT dashboard with a chart using JSON data.
 
 * [Usage](#usage)
 * [Inputs](#inputs)
-* [IoT Generated Arduino](#iot-genereted-arduino)
+* [IoT Generated Arduino](#iot-generated-arduino)
 * [Contributing](#contributing)
 * [License](#license)
 
