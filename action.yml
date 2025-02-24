@@ -1,0 +1,30 @@
+name: 'Generate IoT Dashboard'
+description: 'A GitHub Action to generate an IoT dashboard with a chart using JSON data form Arduino IDE'
+author: 'GALIH RIDHO UTOMO'
+branding:
+  icon: 'bar-chart-2'
+  color: 'green'
+inputs:
+  json_filename:
+    description: 'Data JSON from Arduino IDE Update Automation'
+    required: true
+    default: 'data.json'
+  html_filename:
+    description: 'HTML File for showing WebApp Generated'
+    required: true
+    default: 'index.html'
+  css_filename:
+    description: 'CSS File for Styling WebApp'
+    required: true
+    default: 'styles.css'
+  site_title:
+    description: 'Title of the website'
+    required: true
+    default: 'IoT Dashboard'
+  chart_title:
+    description: 'Title of the chart'
+    required: true
+    default: 'IoT Data Chart'
+runs:
+  using: 'node16'
+  main: 'src/index.js'
