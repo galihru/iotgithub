@@ -1,6 +1,14 @@
 # IoT Dashboard Generator
 
+## About
+
 This GitHub Action generates an IoT dashboard with a chart using JSON data.
+
+* [Usage](#usage)
+* [Inputs](#inputs)
+* [IoT Generated Arduino](#iot-genereted-arduino)
+* [Contributing](#contributing)
+* [License](#license)
 
 ## Usage
 
@@ -30,6 +38,11 @@ GALIH RIDHO UTOMO
 
 ## IoT Generated Arduino
 This repository contains a website that utilizes automation to generate files, thereby facilitating the visualization of graphs in real time. The integration of the Internet of Things (IoT) with the ESP32 or ESP8266 development in the Arduino IDE is a notable feature of this repository. To access the repository, navigate to the GitHub IoT repository within the Arduino IDE and enter the search term `githubiot`
+
+## Contributing
+Would you like to contribute? please read my rules [`CONTRIBUTING`](https://github.com/4211421036/iotgithub/blob/main/CONTRIBUTING.md) for more details
+
+Thanks again for your contribute, it is much appreciated! 🙏
 
 ## License
 MIT. See `LICENSE` for more details.
