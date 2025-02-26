@@ -1,5 +1,9 @@
 # IoT Dashboard Generator
 
+<p align="center">
+  <img src="https://4211421036.github.io/githubiotpy/img/GitHub%20IoT%20Logo.png" alt="GitHubIoT Logo">
+</p>
+
 ## About
 
 This GitHub Action (GA) automates the creation of a fully functional IoT dashboard that visualizes data using interactive charts. The GA is integrated with the Arduino IDE platform. You can integrate this GA by using the `githubiot` module in the `.ino` code. Then, upload the code to one of your microcontrollers (ESP32 or ESP8266).
