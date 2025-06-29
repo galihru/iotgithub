@@ -1,7 +1,7 @@
 # IoT Dashboard Generator
 
 <p align="center">
-  <img src="https://4211421036.github.io/githubiotpy/img/GitHub%20IoT%20Logo.png" alt="GitHubIoT Logo">
+  <img src="https://galihru.github.io/githubiotpy/img/GitHub%20IoT%20Logo.png" alt="GitHubIoT Logo">
 </p>
 
 ## About
@@ -22,7 +22,7 @@ This GitHub Action (GA) automates the creation of a fully functional IoT dashboa
 
 ```yaml
 - name: Generate IoT Dashboard
-  uses: 4211421036/iotgithub@v1.0.1
+  uses: galihru/iotgithub@v1.0.2
   with:
     json_filename: 'data.json'
     html_filename: 'index.html'
@@ -62,7 +62,7 @@ GALIH RIDHO UTOMO
 This repository contains a website that utilizes automation to generate files, thereby facilitating the visualization of graphs in real time. The integration of the Internet of Things (IoT) with the ESP32 or ESP8266 development in the Arduino IDE is a notable feature of this repository. To access the repository, navigate to the GitHub IoT repository within the Arduino IDE and enter the search term `githubiot`
 
 ## Contributing
-Would you like to contribute? please read my rules [`CONTRIBUTING`](https://github.com/4211421036/iotgithub/blob/main/CONTRIBUTING.md) for more details
+Would you like to contribute? please read my rules [`CONTRIBUTING`](https://github.com/galihru/iotgithub/blob/main/CONTRIBUTING.md) for more details
 
 Thanks again for your contribute, it is much appreciated! 🙏
 
